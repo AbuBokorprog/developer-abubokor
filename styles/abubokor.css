@@ -191,3 +191,50 @@ textarea {
   width: 100%;
   padding: 18px 24px;
 }
+@media screen and (max-width: 576px) {
+  .skill-container,
+  .resume-content,
+  .about-info-container,
+  .contact {
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px 20px;
+  }
+  .header {
+    background-image: none;
+  }
+  .nav-title {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  nav ul {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .banner {
+    flex-direction: column;
+    margin: 0 100px;
+  }
+  .bnimg {
+    width: 100%;
+  }
+  .btn-primary {
+    height: 100px;
+    padding: 10px 25px;
+  }
+  .section-description {
+    padding: 0px;
+    margin-bottom: 5px;
+  }
+  .about {
+    padding: 20px;
+  }
+  .contact input,
+  textarea {
+    padding: 0px;
+  }
+}
+.hide {
+  display: none;
+}
